@@ -44,9 +44,9 @@ const getLocation = () => {
   return LOCATION;
 };
 
-const getSimulatorArray = (count) => {
+const getMockData = (count) => {
   const objectIndex = getRandomAvatar();
-  const simulatorArray = [];
+  const mockArray = [];
   let i = 0;
   while (i < count) {
     const location = getLocation();
@@ -69,12 +69,12 @@ const getSimulatorArray = (count) => {
       },
       location: location,
     };
-    simulatorArray.push(someObject);
+    mockArray.push(someObject);
     i++;
   }
-  return simulatorArray;
+  return mockArray;
 };
 
-const CREATE_INFO = getSimulatorArray(REVIEW_COUNT);
+const MOCK_DATA = getMockData(REVIEW_COUNT);
 
-export {CREATE_INFO};
+export {MOCK_DATA};

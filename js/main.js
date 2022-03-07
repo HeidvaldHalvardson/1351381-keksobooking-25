@@ -1,4 +1,4 @@
-import {CREATE_INFO} from './data.js';
+import {MOCK_DATA} from './data.js';
 
 // eslint-disable-next-line no-console
-console.log(CREATE_INFO);
+console.log(MOCK_DATA);
