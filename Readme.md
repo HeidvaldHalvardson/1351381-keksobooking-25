@@ -1,3 +1,5 @@
+https://heidvaldhalvardson.github.io/1351381-keksobooking-25/
+
 # Личный проект «Кексобукинг»
 
 * Студент: [Влад Богодяж](https://up.htmlacademy.ru/javascript/25/user/1351381).
